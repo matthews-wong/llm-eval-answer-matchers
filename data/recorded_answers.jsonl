@@ -1,0 +1,8 @@
+{"id": "ocean", "answer": "The Pacific Ocean."}
+{"id": "capital", "answer": "canberra"}
+{"id": "city", "answer": "New York"}
+{"id": "bridge", "answer": "The Golden Gate Bridge in San Francisco"}
+{"id": "pop", "answer": "roughly 1,004,000 people"}
+{"id": "height", "answer": "8,848.86 m"}
+{"id": "record", "answer": "{\"status\": \"ok\", \"count\": 3, \"extra\": true}"}
+{"id": "record_bad", "answer": "Sure! Here is the JSON: {\"status\": \"ok\"}"}
