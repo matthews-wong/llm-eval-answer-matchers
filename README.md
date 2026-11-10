@@ -34,3 +34,15 @@ Golden rows: `{"id", "expected", "matcher"}`. Answer rows: `{"id", "answer"}`.
 - `data/` – fixture golden set and recorded answers
 
 Numbers printed by the CLI come from the fixtures in `data/` and say so.
+
+## Validation
+
+`make validate` runs the unit tests and the fixture eval. On the 8-case fixture
+set in `data/` the token F1 cases average 0.73 and the single exact-match case
+scores 0.00 because the recorded answer differs only in case (`canberra`), which
+the `normalized` matcher would accept. These are fixture results, not a benchmark.
+
+## Caveats
+
+- `numeric` reads the first number in the answer only.
+- `json_fields` needs a bare JSON object; an answer wrapped in prose scores 0.
