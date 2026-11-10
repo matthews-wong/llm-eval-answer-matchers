@@ -1,0 +1,8 @@
+{"id": "ocean", "expected": "Pacific Ocean", "matcher": "normalized"}
+{"id": "capital", "expected": "Canberra", "matcher": "exact"}
+{"id": "city", "expected": "new york city", "matcher": "token_f1"}
+{"id": "bridge", "expected": "Golden Gate Bridge", "matcher": "token_f1"}
+{"id": "pop", "expected": "1000000", "matcher": "numeric"}
+{"id": "height", "expected": "8849", "matcher": "numeric"}
+{"id": "record", "expected": "{\"status\": \"ok\", \"count\": 3}", "matcher": "json_fields"}
+{"id": "record_bad", "expected": "{\"status\": \"ok\"}", "matcher": "json_fields"}
